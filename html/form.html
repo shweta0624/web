@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Student Addmission Form</h1>
+
+    <!-- To apply Border -->
+    <fieldset >
+
+      <!-- To apply title on Border -->
+      <legend>Personal Details</legend>
+      <form action="welcome.html" method="GET">
+        <!-- <input type="submit" /> -->
+      
+        <table>
+          <tr>
+            <td>
+              <label for="studentnsme"><strong>Name</strong> </label>
+      
+            </td>
+      
+            <td><strong>:</strong>
+              <input type="text" name="sname" id="studentnsme" required placeholder="Enter your Name"
+                title="please enter charachter and numeric value only e.g a-zA-Z" />
+              
+          </tr>
+      
+          <tr>
+            <td>
+              <label for="s_id"> <strong>Application_Id</strong> </label>
+            </td>
+      
+            <td><strong>:</strong>
+              <input type="number" name="s_id" id="s_id" required placeholder=" Enter Your Id" />
+            </td>
+          </tr>
+      
+          <tr>
+            <td>
+              <label for="Email"> <strong>Email</strong> </label>
+            </td>
+      
+            <td><strong>:</strong>
+              <input type="email" name="uemail" id="Email" placeholder="Enter your email id"
+                title="only Gmail and Yahoo is aceepted !!!" />
+            </td>
+          </tr>
+      
+          <tr>
+            <td>
+              <label for="Gender"> <strong>Gender</strong></label>
+            </td>
+      
+            <td><strong>:</strong>
+              <input type="radio" name="mydradio" id="Male" checked />Male
+              <input type="radio" name="mydradio" id="Female" />Female
+            </td>
+          </tr>
+      
+          <tr>
+            <td>
+              <label for="Stream"><strong>Check a Subject which You want to take:</strong>
+              </label>
+            </td>
+      
+            <td><strong>:</strong>
+              <input type="checkbox" name="mychechbox" id="mychechbox" checked />Scince
+              <input type="checkbox" name="mychechbox" id="mychechbox" />Math
+              <input type="checkbox" name="mychechbox" id="mychechbox" />Biology
+              <input type="checkbox" name="mychechbox" id="mychechbox" />History
+            </td>
+          </tr>
+      
+          <tr>
+            <td>
+              <input type="submit"></input>
+            
+              <input type="reset"></input>
+             
+            </td>
+      
+          </tr>
+        </table>
+      </form>
+ 
+      
+      
+    </fieldset>
+
+    
+  </body>
+</html>
