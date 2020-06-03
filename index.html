@@ -1,27 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebPractice</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    body {
+      margin: 0px;
+      background-image: url(https://wallpaperplay.com/walls/full/2/8/2/108568.jpg);
+      background-size: 100%;
+      background-attachment: fixed;
+    }
+  
+    div {
+      border: 1px solid black;
+      height: 450px;
+    }
+  
+    #div1,#div7{background-color: lightskyblue;}
+    #div3,
+    #div5
+    {
+      background-color: white;
+    }
+  
+    #div4 {
+      background-image: url(https://www.itl.cat/pngfile/big/156-1567322_laptop-coffee-cup-agenda.jpg);
+      background-attachment: fixed;
+      background-size: 100%;
+    }
+  
+    #div6 {
+      background-image: url(https://khalidalquneah.files.wordpress.com/2016/03/11.jpg);
+      background-attachment: fixed;
+      background-size: 100%;
+    }
+
+    #div1,
+    #div7 {
+      height: 100px;
+    }
+  
+    li {
+      color: black;
+      display: inline;
+      padding: 5px;
+      border-radius: 6px;
+      box-shadow: 2px 2px 5px gray;
+      margin: 2px;
+      /* border: 1px solid blue; */
+    }
+
+  </style>
   </head>
+  
   <body>
-    <marquee style="font-size: 42px; color: purple;">Welcome To My Page</marquee
-    ><br />
-    <a href="html/3_marquee.html"><h2>Marquee Tag</h2></a>
-
-    <a href="html/a.html"><h2>List Tag</h2></a>
-
-    <a href="html/combination.html"><h2>Combine</h2></a>
-
-    <a href="html/form.html"><h2>Form</h2></a>
-
-    <a href="html/table.html"><h2>Table</h2></a>
-
-    <a href="html/list.html"><h2>Changes on List</h2></a>
-
-    <a href="html/headingtags.html"><h2>Heading Tag</h2></a>
-
-    <a href="html/div-p-span.html"><h2>div-p-span Tag</h2></a>
-  </body>
+    <div class="cls" id="div1">
+      <marquee style="color: hotpink;font-size: 28px;">Welcome to My Page...!</marquee>
+      <ul>
+        <li>Home</li>
+        <li>Contact Us</li>
+        <li>Products</li>
+        <li>Help</li>
+      </ul>
+    </div>
+    <div class="cls" id="div2" >
+      <a href="html/fullhtmlpage.html"><h1 style="color:mediumvioletred;">HTML</h1></a>
+      <h1 style="color:mediumvioletred;">CSS</h1>
+    </div>
+    <div class="cls" id="div3">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7561.264654047029!2d73.83726257432778!3d18.635600065716435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b877dee918cb%3A0xdc105defa9544bf!2sIndrayani%20Nagar%20Sector%202%2C%20Bhosari%2C%20Pimpri-Chinchwad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1591103513968!5m2!1sen!2sin"
+        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+        tabindex="0"></iframe>
+        <p style="float: right;margin-right: 400px;margin-top: 200px;font-size: 24px;color: orange;">Hello,<br>
+          I am Shweta Jadhav.<br>
+          Working as a Graphic Designer.<br>
+          I am from Indrayani Nagar, Bhosari, Pune.<br>
+        </p>
+    </div>
+    <div class="cls" id="div4">
+      <h1>4</h1>
+    </div>
+    <div class="cls" id="div5">
+      <iframe width="50%" height="450" src="https://www.youtube.com/embed/mUNvnU5rFPc" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="cls" id="div6">
+      <h1>6</h1>
+    </div>
+    <div class="cls" id="div7">
+      <h1>7</h1>
+    </div>
+</body>
 </html>
